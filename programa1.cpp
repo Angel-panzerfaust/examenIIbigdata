@@ -4,12 +4,14 @@
 
 void main()
 {
- int c=0;
- int f=1;
+ int i=0;
+ int j=1;
  //hasta aqui es la modificacion de prog 1
  float x=4.5;
- printf("hola mundo");
+ printf("Aqui toy");
+ printf("hola Mundo");
  printf("yo tengo estres");
- printf("plz help");
+ printf("Pleace help");
+
 
 }
