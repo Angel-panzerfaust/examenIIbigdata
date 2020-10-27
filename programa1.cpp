@@ -11,7 +11,10 @@ void main()
  printf("Aqui toy");
  printf("hola Mundo");
  printf("yo tengo estres");
- printf("Pleace help");
-
+ printf("Please help");
+ //modificaciones de la preg 13
+ c=a+b;
+ a=c*b;
+ printf("esto me suena :\");
 
 }

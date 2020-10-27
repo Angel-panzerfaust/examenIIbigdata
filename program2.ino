@@ -2,18 +2,27 @@ include<Arduino.h>
 
 void setup()
 {
-	pinMode(4,OUTPUT);
-	pinMode(5,OUTPUT);
+	Serial.begin(9600)
+	//Todo bien? //simon prof
+	pinMode(3,OUTPUT);
+	// hola hola que tal, hay algun conflicto? //jaja si pero en iraq
+	pinMode(6,OUTPUT);
 }
 void loop()
 {
-	digitalWrite(5,HIGH);
-	//digitalWrite(5,LOW);
+	//se altera el codigo de esta parte
+	//digitalWrite(5,HIGH);
+	digitalWrite(5,LOW);
 	//fin de las modificaciones p1
 
-	delay(500);
-	analogWrite(10,250);
-	delay
+	delay(1000);
+	analogWrite(3,250);
+	Serial.print("hola");
+	delay(220);
 	analogRead(10,102);
+	//modificaiones pt13
+	Serial.print("angel tiene un 10");
+	Serial.println("yes/yes");
+
 }
 
